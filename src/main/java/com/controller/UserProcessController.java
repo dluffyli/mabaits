@@ -19,7 +19,13 @@ public class UserProcessController {
         User user = new User();
         user.setId(1);
         userProcessService.login(user);
-        System.out.println("hello world");
+        System.out.println("hello world!");
+        return "index";
+    }
+
+    @RequestMapping("/thread")
+    public String thread(){
+
         return "index";
     }
 }

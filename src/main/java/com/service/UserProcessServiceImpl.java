@@ -15,4 +15,15 @@ public class UserProcessServiceImpl implements UserProcessService {
         boolean loginSuccess = user==null?false:true;
         return loginSuccess;
     }
+
+    @Override
+    public boolean add(User user) {
+
+        return false;
+    }
+
+    @Override
+    public boolean delete(User user) {
+        return false;
+    }
 }
